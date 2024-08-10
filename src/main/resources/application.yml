@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+      name: bookstore
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: bookstore
+    password: admin
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
